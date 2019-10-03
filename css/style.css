@@ -6,7 +6,31 @@
     background-position: 0-380px; 
     
 }
+#dots{
+    display:none;
+    position: absolute; 
+   background-color: #f1f1f1;
+   list-style: none;
+   color: black;
+   padding: 10px;
+   margin-top: 20px;
+}
+.nav-link:hover #dots{
+     display: block;      
+}
 
+#explore{
+    display:none;
+    position: absolute; 
+   background-color: #f1f1f1;
+   list-style: none;
+   color: black;
+   padding: 10px;
+   margin-top: 20px;
+}
+.nav-link:hover #explore{
+     display: block;      
+}
 #section1{
     background-image: url(../images/11-59-25-21_1920x430.jpg);
     height: 500px;
@@ -19,6 +43,10 @@
 }
 #section1 .bg-light{
     background: none !important;
+}
+.fa{
+    font-size: 100px;
+    color: white;
 }
 #displaytext{
     color: white;
@@ -46,4 +74,22 @@ input#search{
     position: absolute;
     left: 280px;
     top: -38px;
+}
+
+#section2{
+    display: flex;     
+}
+#section2 .row{
+    justify-content:space-around;
+    margin-top: 30px;
+ 
+ }
+#section2 .img-thumbnail{
+    width: 250px;
+    height: 250px;
+}
+#section2 .img-thumbnail:hover{
+  transform: scale(2);
+  transition-delay: 250ms;
+  transition-duration: 1000ms;
 }
