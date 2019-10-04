@@ -44,8 +44,8 @@
 #section1 .bg-light{
     background: none !important;
 }
-.fa{
-    font-size: 100px;
+#section1 .fa{
+    font-size: 17px;
     color: white;
 }
 #displaytext{
@@ -72,7 +72,7 @@ input#search{
 }
 .dropdown{
     position: absolute;
-    left: 280px;
+    left: 324px;
     top: -38px;
 }
 
@@ -92,4 +92,16 @@ input#search{
   transform: scale(2);
   transition-delay: 250ms;
   transition-duration: 1000ms;
+}
+#fotter{
+    background-color: #fafafa;
+    border-top: 1px solid #eee;
+    height: 85px;
+    align-items: center;
+}
+#fotter div{
+     align-items: center;
+}
+#fotter div .fa{
+    font-size: 24px;
 }
