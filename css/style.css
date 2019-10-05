@@ -87,9 +87,12 @@ input#search{
 #section2 .img-thumbnail{
     width: 250px;
     height: 250px;
+   
 }
+  
 #section2 .img-thumbnail:hover{
-  transform: scale(2);
+  /*transform: scale(2);*/
+   
   transition-delay: 250ms;
   transition-duration: 1000ms;
 }
